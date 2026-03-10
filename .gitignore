@@ -201,6 +201,22 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# --- ESP32 / PlatformIO / Arduino ---
+.pio/
+build/
+cmake-build*
+*.elf
+*.bin
+*.map
+
+# --- Certificates / Keys ---
+*.pem
+*.crt
+*.key
+
+# --- Sensor / Temp Data ---
+*.csv
+*.tmp
 # Marimo
 marimo/_static/
 marimo/_lsp/
