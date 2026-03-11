@@ -1,0 +1,3 @@
+{
+  "payload": "{\"device_id\":\"qtpy-s3-01\",\"timestamp\":1771650000,\"room\":\"livingroom\",\"sensors\":{\"temperature_c\":21.7,\"humidity_pct\":48.0,\"mq9_raw\":12345,\"mq9_ppm\":3.2},\"meta\":{\"firmware\":\"1.0.0\",\"rssi\":-62}}"
+}
