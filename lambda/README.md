@@ -4,4 +4,4 @@ influxdb-layer.zip - This is the layer that you will need to upload to AWS when 
 
 lambda_role_policy.json - This is the policy in json form that is attached to the lambda handler. This will help you identify whether or not lambda is parsing the payloads correctly as it will be recorded in cloudwatch logs.
 
-
+test_payload.json - This is a test payload that you can use to test the handler and look at the results in the cloudwatch logstream. Please note you will have to make sure the timestamp in the test payload is within 1 month of the day you perform the test as there is date validation in the handler script.
